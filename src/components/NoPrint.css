@@ -1,0 +1,12 @@
+.OnlyPrint {
+  display: none;
+}
+
+@media print {
+  .NoPrint {
+    display: none;
+  }
+  .OnlyPrint {
+    display: block;
+  }
+}

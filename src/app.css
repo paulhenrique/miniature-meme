@@ -1,0 +1,19 @@
+.limitadoraDeAltura {
+  max-height: 100px;
+  overflow: auto;
+  background: red;
+}
+
+@media print {
+  .limitadoraDeAltura {
+    max-height: none;
+    background: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .limitadoraDeAltura {
+    max-height: 100px;
+    background: purple !important;
+  }
+}
